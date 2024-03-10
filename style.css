@@ -1,0 +1,113 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background: url("https://media.istockphoto.com/id/1367078593/vector/abstract-gray-modern-background.jpg?s=612x612&w=0&k=20&c=dH7j_YzMSLlwUpU_gZ3OtpD-XnkBEYYiEJ_T6-fjZ64=");
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar{
+    width:100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    cursor:pointer;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.info{
+    margin-left:4% ;
+    margin-top: 6%;
+    font-size: 30px;
+}
+
+.image{
+    width:50%;
+    height: 75%;
+    position: absolute;
+    right: -350px;
+    bottom: 10px;
+}
+
+.image img{
+    height: 80%;
+}
+
+/* Global styles */
+.linkedin a{
+    margin-left:4% ;
+    margin-top: 16%;   
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    transition: .4s ease;
+}
+
+.linkedin a:hover{
+    color:rgb(230,104,59);
+}
+
+header {
+    background-color: #333;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding:10px 16px;
+}
+
+ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color:rgb(230,104,59);
+}
+
+section {
+    padding: 50px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #000000;
+}
